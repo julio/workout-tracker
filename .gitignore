@@ -1,0 +1,52 @@
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+DerivedData/
+*.swiftpm
+.swiftpm/
+
+# Build
+build/
+Build/
+.build/
+
+# Swift Package Manager
+.package/
+Packages/
+*.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.dSYM/
+*.su
+*.su.dSYM/
+
+# Xcode specific
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage.json
+*.profdata
+
+# Temporary files
+*.tmp
+*.temp
