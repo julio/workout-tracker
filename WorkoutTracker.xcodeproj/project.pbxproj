@@ -15,6 +15,13 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>BuildFile_Assets</key>
+		<dict>
+			<key>fileRef</key>
+			<string>File_Assets</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BuildFile_Content</key>
 		<dict>
 			<key>fileRef</key>
@@ -123,6 +130,19 @@
 			<string>WorkoutStoreTests.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>PBXBuildPhase_Resources</key>
+		<dict>
+			<key>buildActionMask</key>
+			<integer>2147483647</integer>
+			<key>files</key>
+			<array>
+				<string>BuildFile_Assets</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<integer>0</integer>
 		</dict>
 		<key>PBXBuildPhase_Sources</key>
 		<dict>
@@ -254,6 +274,7 @@
 			<key>buildPhases</key>
 			<array>
 				<string>PBXBuildPhase_Sources</string>
+				<string>PBXBuildPhase_Resources</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
