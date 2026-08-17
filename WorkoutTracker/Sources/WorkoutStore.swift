@@ -9,8 +9,8 @@ class WorkoutStore: ObservableObject {
     private let encoder = JSONEncoder()
     private let decoder = JSONDecoder()
 
-    init(fileURL: URL = Self.defaultFileURL) {
-        self.fileURL = fileURL
+    init(fileURL: URL? = nil) {
+        self.fileURL = fileURL ?? WorkoutStore.defaultFileURL
         decoder.dateDecodingStrategy = .iso8601
         encoder.dateEncodingStrategy = .iso8601
         load()
